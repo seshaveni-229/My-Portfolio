@@ -1,0 +1,9 @@
+a {
+  color: #ee40b1; /* Example: yellowish */
+  text-decoration: none; /* Removes underline (optional) */
+}
+
+a:hover {
+  color: #f45fd1; /* Lighter yellow on hover (example) */
+  text-decoration: underline; /* Adds underline on hover (optional) */
+}

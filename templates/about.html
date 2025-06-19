@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% extends "base.html" %}
+{% block content %}
+<div class="text-center mb-4">
+  <h2>About Me</h2>
+  <img src="{{ url_for('static', filename='images/profile.jpeg') }}" alt="Profile Photo" class="rounded-circle shadow-lg" width="180">
+</div>
+
+<p class="lead text-center">
+  Hi! I'm <strong>SESHAVENI MEDAPAMPULA</strong>, a passionate developer dedicated to building user-friendly web applications and learning new technologies.
+</p>
+
+<div class="row mt-4">
+  <div class="col-md-6 mb-3">
+    <div class="p-3 bg-light text-dark rounded">
+      <h4>Who I Am</h4>
+      <p>
+        I am a software developer specializing in <strong>Python</strong>, <strong>Flask</strong>, <strong>HTML/CSS</strong>, <strong>Bootstrap</strong>, and <strong>MySQL</strong>. 
+        My passion is creating clean, functional, and visually appealing web apps that solve real-world problems.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-6 mb-3">
+    <div class="p-3 bg-light text-dark rounded">
+      <h4>Hobbies & Interests</h4>
+      <ul>
+        <li>Exploring new programming frameworks</li>
+        <li>Designing modern user interfaces</li>
+        <li>Contributing to open-source projects</li>
+        <li>Reading tech blogs and books</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="mt-4 p-3 bg-light text-dark rounded">
+  <h4>Education</h4>
+  <p>
+    Bachelor of Technology in Computer Science and Artificial Intelligence <br>
+    <em>Sri Vasavi Engineering College</em>
+  </p>
+</div>
+
+<div class="mt-4 p-3 bg-light text-dark rounded">
+  <h4>Goals</h4>
+  <p>
+    I aim to become a skilled full-stack developer, contribute to impactful software projects, and keep pushing the boundaries of what I can create with technology.
+  </p>
+</div>
+{% endblock %}
+
+</head>
+<body>
+    
+</body>
+</html>

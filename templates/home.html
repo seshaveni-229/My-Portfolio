@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="text-center">
+  <h1 class="mb-3">Welcome to My Portfolio</h1>
+  <img src="{{ url_for('static', filename='images/profile.jpeg') }}" alt="Profile Photo" class="rounded-circle shadow-lg mb-3" width="200">
+
+  <p class="lead">
+    Hi! I'm <strong>SESHAVENI MEDAPAMPULA</strong> — a passionate web developer who loves to create modern, responsive, and user-friendly web applications.
+  </p>
+
+  <a href="/projects" class="btn btn-warning btn-lg mt-3">View My Projects</a>
+</div>
+
+<hr class="my-4">
+
+<div class="mt-4 p-3 bg-light text-dark rounded">
+  <h2 class="text-center mb-3">Why Choose Me?</h2>
+  <ul class="list-unstyled">
+    <li class="mb-2">
+      ✅ <strong>Passion for coding:</strong> I love solving real-world problems through code and constantly improving my skills.
+    </li>
+    <li class="mb-2">
+      ✅ <strong>Clean design:</strong> I create user-friendly, responsive, and visually appealing applications.
+    </li>
+    <li class="mb-2">
+      ✅ <strong>Commitment to quality:</strong> I focus on writing efficient, maintainable, and well-tested code.
+    </li>
+    <li class="mb-2">
+      ✅ <strong>Continuous learning:</strong> I keep up with new technologies and trends in web development.
+    </li>
+    <li class="mb-2">
+      ✅ <strong>Strong communication:</strong> I collaborate effectively and deliver projects that meet client needs.
+    </li>
+  </ul>
+</div>
+{% endblock %}
